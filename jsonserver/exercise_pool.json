@@ -1,0 +1,588 @@
+{
+    "exercise_pool": [
+        {
+            "id": "1001",
+            "type": "单选题",
+            "chapters": [
+                "命题逻辑的基本概念",
+                "命题与联结词"
+            ],
+            "description": "令 P：他怕困难，q：他战胜困难，",
+            "questions": [
+                "命题“他战胜困难是因为他不怕困难”的符号化形式为 （）。 "
+            ],
+            "options": {
+                "A": ". $\\neg p \\rightarrow q$",
+                "B": ". $\\neg q \\rightarrow p$",
+                "C": ". $\\neg p \\wedge q$",
+                "D": ".$\\neg p\\vee q$"
+            },
+            "answers": [
+                "A "
+            ],
+            "concepts": [
+                "命题与联结词"
+            ],
+            "explanation": "“他不怕困难”是“他怕困难”的否定式，命题“他战胜困难是因为他不怕困难”化成基本结 构为“因为他不怕困难，所以他战胜困难”，典型的蕴涵式。因此，符号化形式为 ，选 A。",
+            "steps": []
+        },
+        {
+            "id": "1002",
+            "type": "单选题",
+            "chapters": [
+                "命题逻辑等值演算",
+                "析取范式和合取范式"
+            ],
+            "description": "令 F(x)：x 为苹果，H(x,y)：x 与 y 完全相同，L(x,y):x=y，",
+            "questions": [
+                "则命题“没有完全相同的苹果”的符号化形式为（）。"
+            ],
+            "options": {
+                "A": "$^\\neg\\existsx\\existsy(F(x)\\wedgeF(y)\\wedgeL(x,y))\\rightarrowH(x,y)$",
+                "B": "$^\\neg\\existsx\\existsy(F(x)\\wedgeF(y)\\wedge^\\negL(x,y)\\wedgeH(x,y))$",
+                "C": "$^\\neg\\existsx\\existsy(F(x)\\wedgeF(y)\\wedge^\\negL(x, y))\\rightarrowH(x, y)$",
+                "D": "$\\forallx\\forally(F(x)\\wedgeF(y)\\wedge^\\negL(x, y)\\wedge^\\negL(x, y)\\wedge^\\negH(x, y))$"
+            },
+            "answers": [
+                "B"
+            ],
+            "concepts": [
+                "析取范式和合取范式"
+            ],
+            "explanation": "本题命题“没有完全相同的苹果”中，没有指明个体域，因而采用全总个体域。其中“相同的苹果”需要任意两个苹果进行比较，即是“两个苹果”同时“非同一个苹果”且“完全相同”，符号化为“$\\exists x \\exists y (F(x)\\wedge F(y)\\wedge ^\\neg L(x, y)\\wedge H(x,y))$ ”；“没有”为否定词；则“没有完全相同的苹 果”符号化为“ $^\\neg \\exists x \\exists y (F(x)\\wedge F(y)\\wedge ^\\neg L(x, y)\\wedge H(x,y))$”，因此选 B。",
+            "steps": []
+        },
+        {
+            "id": "1003",
+            "type": "单选题",
+            "chapters": [
+                "树",
+                "无向树及其性质"
+            ],
+            "description": "一棵树有 2 个 4 度结点，3 个 3 度结点，其余为树叶，",
+            "questions": [
+                "则该树中树叶个数是（）。 "
+            ],
+            "options": {
+                "A": "7",
+                "B": "8",
+                "C": "9",
+                "D": "10"
+            },
+            "answers": [
+                "C "
+            ],
+            "concepts": [
+                "无向树及其性质"
+            ],
+            "explanation": "根据无向树的定义，2 个 4 度结点可以组成“艹”树状，3 个 3 度节点可以通过“艹”6 个结 点中选择任意 3 个结点上分别悬挂 2 片树叶即可。这样树叶总个数为 9。故选 C。",
+            "steps": []
+        },
+        {
+            "id": "1004",
+            "type": "单选题",
+            "chapters": [
+                "二元关系",
+                "关系的性质"
+            ],
+            "description": "设集合 A={a,b,c,d}，现有 A 上的二元关系 R={<a,b>,<b,c>,<c,b>,<b,a>,}，",
+            "questions": [
+                "则 A 是（）。 "
+            ],
+            "options": {
+                "A": "自反的",
+                "B": "对称的",
+                "C": "反对称的",
+                "D": "传递的"
+            },
+            "answers": [
+                "B "
+            ],
+            "concepts": [
+                "关系的性质"
+            ],
+            "explanation": "二元关系 R 中典型满足$\\forall x \\forall y (x,y\\in A \\wedge <x,y>\\in R \\rightarrow <y,x>\\in R)$，即满足对称的关系的定义。故选 B。",
+            "steps": []
+        },
+        {
+            "id": "1005",
+            "type": "单选题",
+            "chapters": [
+                "欧拉图与哈密顿图",
+                "欧拉图"
+            ],
+            "description": "下图中为",
+            "questions": [
+                "欧拉图的是（）。"
+            ],
+            "options": {
+                "A": ". ![](.\\pictures\\00050A.PNG)",
+                "B": ". ![](.\\pictures\\00050B.PNG)",
+                "C": ". ![](.\\pictures\\00050C.PNG)",
+                "D": ". ![](.\\pictures\\00050D.PNG)"
+            },
+            "answers": [
+                "C "
+            ],
+            "concepts": [
+                "欧拉图"
+            ],
+            "explanation": "根据欧拉图的定义，具有欧拉回路的图为欧拉图，其充分必要条件是连通的且不含有奇 度顶点。而 ABD 三个选项中均有奇度顶点，故选 C。",
+            "steps": []
+        },
+        {
+            "id": "1006",
+            "type": "单选题",
+            "chapters": [
+                "一阶逻辑等值演算与推理",
+                "一阶逻辑前束范式"
+            ],
+            "description": "下列谓词公式中，",
+            "questions": [
+                "不是前束范式的为（）。"
+            ],
+            "options": {
+                "A": ".$\\forallx\\forally(A(x)\\rightarrowB(y))$",
+                "B": "$\\forallx\\existsy(A(x)\\wedgeB(y))$",
+                "C": "$\\forallx\\existsy(A(x)\\wedgeB(y)\\rightarrowC(z))$",
+                "D": "$\\forallx\\existsy(A(x)\\wedgeB(y)\\rightarrow\\existszC(z))$"
+            },
+            "answers": [
+                "D "
+            ],
+            "concepts": [
+                "一阶逻辑前束范式"
+            ],
+            "explanation": "根据一阶逻辑前束范式的定义，所有约束量词只能在公式最前面，后面公式不能出现量词，排除选项 ABC，故选 D。",
+            "steps": []
+        },
+        {
+            "id": "1007",
+            "type": "单选题",
+            "chapters": [
+                "集合代数",
+                "集合的基本概念"
+            ],
+            "description": "表示集合之间关系的",
+            "questions": [
+                "图是（）。"
+            ],
+            "options": {
+                "A": "文氏图",
+                "B": "哈斯图",
+                "C": "欧拉图",
+                "D": "树"
+            },
+            "answers": [
+                "A "
+            ],
+            "concepts": [
+                "集合的基本概念"
+            ],
+            "explanation": "根据集合代数理论，表示集合之间关系与运算的图为文氏图，故选 A。",
+            "steps": []
+        },
+        {
+            "id": "1008",
+            "type": "单选题",
+            "chapters": [
+                "图的基本概念",
+                "图的运算"
+            ],
+            "description": "无向完全图$K_6$的",
+            "questions": [
+                "边的条数为（）。"
+            ],
+            "options": {
+                "A": "10",
+                "B": "15",
+                "C": "20",
+                "D": "30"
+            },
+            "answers": [
+                "B"
+            ],
+            "concepts": [
+                "图的运算"
+            ],
+            "explanation": "根据无向完全图的定义，可以 6 结点中每一个都与其余 5 个相邻接，其边数计算公式 为 n(n-1)/2，带入 n=6，则为 15，故选 B。",
+            "steps": []
+        },
+        {
+            "id": "1009",
+            "type": "单选题",
+            "chapters": [
+                "树",
+                "根树及其应用"
+            ],
+            "description": "设 T 是 n 阶树(n≥2)，",
+            "questions": [
+                "则 T 不具有的性质是（）。 "
+            ],
+            "options": {
+                "A": "连通图",
+                "B": "哈密顿图",
+                "C": "有 n－1 条边",
+                "D": "至少有两片树叶"
+            },
+            "answers": [
+                "B "
+            ],
+            "concepts": [
+                "根树及其应用"
+            ],
+            "explanation": "根据树的定义及等价命题，n 阶树一定是连通的，且有 n-1 条边，至少有两片树叶，但 不会有回路，因此不是哈密顿图（具有哈密顿回路的图），故选 B。 ",
+            "steps": []
+        },
+        {
+            "id": "1010",
+            "type": "单选题",
+            "chapters": [
+                "二元关系",
+                "关系的性质"
+            ],
+            "description": "设 R、S 均为集合 A 上的二元关系，",
+            "questions": [
+                "下面命题正确的是（）。 "
+            ],
+            "options": {
+                "A": "若R与S是自反的，则$R\\circS$也是自反的",
+                "B": "若R与S是反自反的，则$R\\circS$也是反自反的",
+                "C": "若R与S是对称的，则$R\\circS$也是对称的",
+                "D": "若R与S是传递的，则$R\\circS$也是传递的"
+            },
+            "answers": [
+                "A "
+            ],
+            "concepts": [
+                "关系的性质"
+            ],
+            "explanation": "根据二元关系的运算规律，两个二元关系的右复合只有自反性保持不变，故选 A。",
+            "steps": []
+        },
+        {
+            "id": "1011",
+            "type": "单选题",
+            "chapters": [
+                "图的基本概念",
+                "图的矩阵表示"
+            ],
+            "description": "以下关于图的矩阵的描述，",
+            "questions": [
+                "正确的是（）。"
+            ],
+            "options": {
+                "A": "邻接矩阵即关系矩阵",
+                "B": "可达矩阵是针对无向图的",
+                "C": "无向图有邻接矩阵",
+                "D": "可达矩阵是针对有向图的 "
+            },
+            "answers": [
+                "C"
+            ],
+            "concepts": [
+                "图的矩阵表示"
+            ],
+            "explanation": "根据图的矩阵的描述理论，邻接矩阵与关系矩阵是不同的，无向图与有向图都有关系矩 阵，邻接矩阵仅应用于有向图，故选 C。",
+            "steps": []
+        },
+        {
+            "id": "1012",
+            "type": "单选题",
+            "chapters": [
+                "图的基本概念",
+                "图的连通性"
+            ],
+            "description": "一个 6 阶连通图的",
+            "questions": [
+                "边数至少为（）。 "
+            ],
+            "options": {
+                "A": "4",
+                "B": "5",
+                "C": "6",
+                "D": "7 "
+            },
+            "answers": [
+                "B "
+            ],
+            "concepts": [
+                "图的连通性"
+            ],
+            "explanation": "根据连通图的概念，必须存在 6 个顶点至少经过一次的通路，最简单的通路就是 6 个 点用 5 条线连接而没有圈的情况，故选 B。",
+            "steps": []
+        },
+        {
+            "id": "1013",
+            "type": "单选题",
+            "chapters": [
+                "函数",
+                "函数的复合与反函数"
+            ],
+            "description": "下列关于反函数的命题，",
+            "questions": [
+                "正确的是（）。"
+            ],
+            "options": {
+                "A": "单射函数有反函数",
+                "B": "任意函数均有反函数",
+                "C": "满射函数有反函数",
+                "D": "双射函数有反函数 "
+            },
+            "answers": [
+                "D "
+            ],
+            "concepts": [
+                "反函数"
+            ],
+            "explanation": "根据反函数的定义，双射函数有反函数，双射函数的反函数也是双射函数，故选 D。",
+            "steps": []
+        },
+        {
+            "id": "1014",
+            "type": "单选题",
+            "chapters": [
+                "图的基本概念",
+                "图的运算"
+            ],
+            "description": "一个 6 阶图，",
+            "questions": [
+                "其各结点度数之和不可能为（）。"
+            ],
+            "options": {
+                "A": "10",
+                "B": "12",
+                "C": "15",
+                "D": "20 "
+            },
+            "answers": [
+                "C "
+            ],
+            "concepts": [
+                "欧拉握手定理"
+            ],
+            "explanation": "根据欧拉握手定理，无向图的各结点度数之和等于边数的 2 倍，因此总度数不会是奇数，故选 C。",
+            "steps": []
+        },
+        {
+            "id": "0015",
+            "type": "单选题",
+            "chapters": [
+                "格与布尔代数",
+                "格的定义与性质"
+            ],
+            "description": "在整数集合 Z 上定义\\*运算如下：a、b$\\in$ Z，a\\*b=a+b－10，",
+            "questions": [
+                "则代数系统<Z,\\*> 是（）。"
+            ],
+            "options": {
+                "A": "格",
+                "B": "环",
+                "C": "域",
+                "D": "群"
+            },
+            "answers": [
+                "D "
+            ],
+            "concepts": [
+                "格的定义与性质"
+            ],
+            "explanation": "根据运算规律 a*b=a+b－10，可以看到具有单位元：由 a*e=a 推出 e=10，同时具有逆 元：由 a\\*a-1=e 推出 a-1=20-a，既有单位元又有逆元，恰为群的定义，故选 D。 ",
+            "steps": []
+        },
+        {
+            "id": "0016",
+            "type": "填空题",
+            "chapters": [
+                "集合代数",
+                "集合的运算"
+            ],
+            "description": "设Σ={a,b}是字母表，Σ\\*表示由Σ上的字符构成的有限长度的串的集合（包含长度为 0 的串， 即空串在内），$A=\\{a,b,aa,bb,aaa,bbb\\}，B=\\{ω∣ω \\in Σ* \\wedge │ω│\\geq 2\\}，C=\\{ω∣ω \\in Σ*\\wedge│ω│≤2\\}$,",
+            "questions": [
+                "则 $A －(B\\cap C)$ = 。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "{A,B,AAA,BBB}"
+            ],
+            "concepts": [
+                "集合的运算"
+            ],
+            "explanation": "根据题意，$B\\cap C$ = {所有长度为 2 的字符串｝=｛aa,bb,ab,ba}，则 $A－(B\\cap C)$ = {a,b,aaa,bbb}。",
+            "steps": []
+        },
+        {
+            "id": "0017",
+            "type": "填空题",
+            "chapters": [
+                "命题逻辑的基本概念",
+                "命题公式及其赋值"
+            ],
+            "description": "在整数域中，",
+            "questions": [
+                "命题公式$\\forall x \\exists y (x\\cdot y=0)$的真值为____，",
+                "命题公式 的真值为____。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "T",
+                "F"
+            ],
+            "concepts": [
+                "命题公式及其赋值"
+            ],
+            "explanation": "根据命题公式的意义，第一个公式表示对任意一个 x 存在一个 y 与之相乘为 0，显然在 整数域中只要取 y=0 即可满足，因此是正确的；第二个公式表示存在一个 x 与任意一个 y 相乘 为 1，显然在整数域是不可能实现的，因此是错误的。",
+            "steps": []
+        },
+        {
+            "id": "0018",
+            "type": "填空题",
+            "chapters": [
+                "群与环",
+                "群的定义和性质"
+            ],
+            "description": "设 A 为非空有限集合，P(A)为 A 的幂集，$\\cup$为集合的并运算，",
+            "questions": [
+                "群$<P(A)，\\cup>$中，单位元是 ____，",
+                "零元是____。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "?",
+                "A"
+            ],
+            "concepts": [
+                "群的定义和性质"
+            ],
+            "explanation": "根据单位元定义，设任意集合$B\\in P(A)$则由即 为单位元；根据零元的定义，设任意集合即 A 为零元。",
+            "steps": []
+        },
+        {
+            "id": "0019",
+            "type": "填空题",
+            "chapters": [
+                "基本的组合计算公式",
+                "排列与组合"
+            ],
+            "description": "一个手镯等距离地镶嵌着 5 颗彩珠，每颗彩珠可以从红、白、蓝、绿、黄 5 种颜色中挑选。",
+            "questions": [
+                "如果要求手镯上的彩珠颜色都不相同，则可以构成____种不同颜色彩珠分布的手镯。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "120"
+            ],
+            "concepts": [
+                "排列与组合",
+                "乘法法则"
+            ],
+            "explanation": "颜色集合由红、白、蓝、绿、黄 5 种颜色组成，根据排列组合知识可得 5！=120。",
+            "steps": []
+        },
+        {
+            "id": "0020",
+            "type": "填空题",
+            "chapters": [
+                "图的基本概念",
+                "图的连通性"
+            ],
+            "description": "某连通平面图有 6 个顶点，其平面表示中共有 8 个面，",
+            "questions": [
+                "则其边____条。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "12"
+            ],
+            "concepts": [
+                "图的连通性",
+                "图的运算"
+            ],
+            "explanation": "根据连通平面图的欧拉定理：顶点数－边数＋面数=2，可得边数=6+8-2=12。",
+            "steps": []
+        },
+        {
+            "id": "0021",
+            "type": "填空题",
+            "chapters": [
+                "树",
+                "生成树"
+            ],
+            "description": "为了从无向完全图 K6 中得到其生成树， ",
+            "questions": [
+                "至少需要删除____条边"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "10"
+            ],
+            "concepts": [
+                "无向完全图",
+                "生成树"
+            ],
+            "explanation": "无向完全图 K6 共有边数为 n(n-1)/2=15 条，而有 n 个顶点的树有 n－1 条边，即有 6－ 1=5 条边，所以至少要删除 15－5=10 条边。",
+            "steps": []
+        },
+        {
+            "id": "0022",
+            "type": "填空题",
+            "chapters": [
+                "图的基本概念",
+                "图的运算"
+            ],
+            "description": "一个无向图有 21 条边，有 3 个 4 度结点，其余结点均为 3 度，",
+            "questions": [
+                "则其结点共有________ 个。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "13"
+            ],
+            "concepts": [
+                "无向图",
+                "图的运算"
+            ],
+            "explanation": "根据欧拉握手定理，无向图的各结点度数之和等于边数的 2 倍，设共有 x 个节点，3\\*4+ （x－3）\\*3=21\\*2，则 x=13。",
+            "steps": []
+        },
+        {
+            "id": "0023",
+            "type": "填空题",
+            "chapters": [
+                "集合代数",
+                "集合的运算"
+            ],
+            "description": "设集合 A={1,2,3}，集合 B={a,b,c,d,e}，",
+            "questions": [
+                "则│A×B│=____，",
+                "而│P(A)×B│=____。"
+            ],
+            "options": [
+                ""
+            ],
+            "answers": [
+                "15",
+                "40"
+            ],
+            "concepts": [
+                "集合的运算"
+            ],
+            "explanation": "│A│=3，│B│=5，所以│A×B│=3×5=15│P(A)│=2│A│=23=8，│B│=5，所以│P(A)×B│=8×5=40",
+            "steps": []
+        }
+    ]
+}
