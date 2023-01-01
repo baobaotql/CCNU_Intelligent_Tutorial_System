@@ -27,6 +27,6 @@
     "path-to-regexp": "^6.1.0",
     "seraph": "^0.15.3",
     "superagent": "^5.2.2",
-    "webpack": "^4.42.1"
+    "webpack": "^5.75.0"
   }
 }
